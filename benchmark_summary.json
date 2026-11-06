@@ -1,0 +1,11 @@
+{
+    "tasks_completed": 20,
+    "benchmark_duration_seconds": 10.152,
+    "throughput_tasks_per_second": 1.97,
+    "average_task_duration_seconds": 1.0117,
+    "worker_completions": {
+        "001": 10,
+        "002": 10
+    },
+    "generated_at": "2026-11-05 09:03:11"
+}

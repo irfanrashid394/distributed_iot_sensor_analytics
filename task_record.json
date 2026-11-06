@@ -1,0 +1,2704 @@
+{
+    "sensor_1_stats": {
+        "process": "temperature_stats",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:56.298083+00:00",
+                "temperature": 21.24,
+                "humidity": 62.99
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:56.298538+00:00",
+                "temperature": 21.34,
+                "humidity": 59.65
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:56.298551+00:00",
+                "temperature": 21.62,
+                "humidity": 50.93
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:56.298556+00:00",
+                "temperature": 23.72,
+                "humidity": 53.73
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:56.298559+00:00",
+                "temperature": 24.48,
+                "humidity": 58.51
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:56.298562+00:00",
+                "temperature": 24.52,
+                "humidity": 48.34
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:56.298565+00:00",
+                "temperature": 23.59,
+                "humidity": 56.46
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:56.298568+00:00",
+                "temperature": 25.42,
+                "humidity": 56.21
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:56.298570+00:00",
+                "temperature": 25.02,
+                "humidity": 52.63
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:56.298573+00:00",
+                "temperature": 25.61,
+                "humidity": 70.99
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:56.298576+00:00",
+                "temperature": 20.52,
+                "humidity": 63.84
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:56.298578+00:00",
+                "temperature": 26.45,
+                "humidity": 52.29
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:56.298581+00:00",
+                "temperature": 25.18,
+                "humidity": 53.94
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:56.298583+00:00",
+                "temperature": 24.02,
+                "humidity": 56.13
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:56.298586+00:00",
+                "temperature": 25.55,
+                "humidity": 52.29
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:56.298589+00:00",
+                "temperature": 22.84,
+                "humidity": 53.0
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:56.298591+00:00",
+                "temperature": 25.4,
+                "humidity": 60.38
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:56.298595+00:00",
+                "temperature": 22.5,
+                "humidity": 50.7
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:56.298602+00:00",
+                "temperature": 23.14,
+                "humidity": 54.22
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:56.298604+00:00",
+                "temperature": 23.84,
+                "humidity": 47.25
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "001",
+        "result": {
+            "count": 20,
+            "minimum": 20.52,
+            "maximum": 26.45,
+            "average": 23.8
+        },
+        "execution_seconds": 1.003
+    },
+    "sensor_1_anomalies": {
+        "process": "detect_anomalies",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:56.298083+00:00",
+                "temperature": 21.24,
+                "humidity": 62.99
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:56.298538+00:00",
+                "temperature": 21.34,
+                "humidity": 59.65
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:56.298551+00:00",
+                "temperature": 21.62,
+                "humidity": 50.93
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:56.298556+00:00",
+                "temperature": 23.72,
+                "humidity": 53.73
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:56.298559+00:00",
+                "temperature": 24.48,
+                "humidity": 58.51
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:56.298562+00:00",
+                "temperature": 24.52,
+                "humidity": 48.34
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:56.298565+00:00",
+                "temperature": 23.59,
+                "humidity": 56.46
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:56.298568+00:00",
+                "temperature": 25.42,
+                "humidity": 56.21
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:56.298570+00:00",
+                "temperature": 25.02,
+                "humidity": 52.63
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:56.298573+00:00",
+                "temperature": 25.61,
+                "humidity": 70.99
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:56.298576+00:00",
+                "temperature": 20.52,
+                "humidity": 63.84
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:56.298578+00:00",
+                "temperature": 26.45,
+                "humidity": 52.29
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:56.298581+00:00",
+                "temperature": 25.18,
+                "humidity": 53.94
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:56.298583+00:00",
+                "temperature": 24.02,
+                "humidity": 56.13
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:56.298586+00:00",
+                "temperature": 25.55,
+                "humidity": 52.29
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:56.298589+00:00",
+                "temperature": 22.84,
+                "humidity": 53.0
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:56.298591+00:00",
+                "temperature": 25.4,
+                "humidity": 60.38
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:56.298595+00:00",
+                "temperature": 22.5,
+                "humidity": 50.7
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:56.298602+00:00",
+                "temperature": 23.14,
+                "humidity": 54.22
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:56.298604+00:00",
+                "temperature": 23.84,
+                "humidity": 47.25
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "002",
+        "result": {
+            "temperature_anomalies": [],
+            "humidity_anomalies": []
+        },
+        "execution_seconds": 1.008
+    },
+    "sensor_2_stats": {
+        "process": "temperature_stats",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:57.299560+00:00",
+                "temperature": 23.57,
+                "humidity": 52.33
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:57.299607+00:00",
+                "temperature": 26.56,
+                "humidity": 57.99
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:57.299637+00:00",
+                "temperature": 24.34,
+                "humidity": 62.54
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:57.299644+00:00",
+                "temperature": 25.99,
+                "humidity": 52.19
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:57.299650+00:00",
+                "temperature": 22.85,
+                "humidity": 49.02
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:57.299656+00:00",
+                "temperature": 23.52,
+                "humidity": 54.65
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:57.299662+00:00",
+                "temperature": 25.76,
+                "humidity": 51.84
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:57.299668+00:00",
+                "temperature": 25.76,
+                "humidity": 58.08
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:57.299677+00:00",
+                "temperature": 19.31,
+                "humidity": 61.79
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:57.299683+00:00",
+                "temperature": 22.31,
+                "humidity": 59.39
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:57.299689+00:00",
+                "temperature": 22.73,
+                "humidity": 56.44
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:57.299695+00:00",
+                "temperature": 22.89,
+                "humidity": 64.72
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:57.299700+00:00",
+                "temperature": 23.1,
+                "humidity": 62.15
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:57.299706+00:00",
+                "temperature": 22.44,
+                "humidity": 47.25
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:57.299712+00:00",
+                "temperature": 25.35,
+                "humidity": 46.09
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:57.299720+00:00",
+                "temperature": 23.4,
+                "humidity": 50.69
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:57.299727+00:00",
+                "temperature": 27.96,
+                "humidity": 47.18
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:57.299732+00:00",
+                "temperature": 24.47,
+                "humidity": 56.13
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:57.299738+00:00",
+                "temperature": 23.7,
+                "humidity": 53.22
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:57.299744+00:00",
+                "temperature": 23.87,
+                "humidity": 62.1
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "001",
+        "result": {
+            "count": 20,
+            "minimum": 19.31,
+            "maximum": 27.96,
+            "average": 23.99
+        },
+        "execution_seconds": 1.008
+    },
+    "sensor_2_anomalies": {
+        "process": "detect_anomalies",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:57.299560+00:00",
+                "temperature": 23.57,
+                "humidity": 52.33
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:57.299607+00:00",
+                "temperature": 26.56,
+                "humidity": 57.99
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:57.299637+00:00",
+                "temperature": 24.34,
+                "humidity": 62.54
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:57.299644+00:00",
+                "temperature": 25.99,
+                "humidity": 52.19
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:57.299650+00:00",
+                "temperature": 22.85,
+                "humidity": 49.02
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:57.299656+00:00",
+                "temperature": 23.52,
+                "humidity": 54.65
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:57.299662+00:00",
+                "temperature": 25.76,
+                "humidity": 51.84
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:57.299668+00:00",
+                "temperature": 25.76,
+                "humidity": 58.08
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:57.299677+00:00",
+                "temperature": 19.31,
+                "humidity": 61.79
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:57.299683+00:00",
+                "temperature": 22.31,
+                "humidity": 59.39
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:57.299689+00:00",
+                "temperature": 22.73,
+                "humidity": 56.44
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:57.299695+00:00",
+                "temperature": 22.89,
+                "humidity": 64.72
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:57.299700+00:00",
+                "temperature": 23.1,
+                "humidity": 62.15
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:57.299706+00:00",
+                "temperature": 22.44,
+                "humidity": 47.25
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:57.299712+00:00",
+                "temperature": 25.35,
+                "humidity": 46.09
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:57.299720+00:00",
+                "temperature": 23.4,
+                "humidity": 50.69
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:57.299727+00:00",
+                "temperature": 27.96,
+                "humidity": 47.18
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:57.299732+00:00",
+                "temperature": 24.47,
+                "humidity": 56.13
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:57.299738+00:00",
+                "temperature": 23.7,
+                "humidity": 53.22
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:57.299744+00:00",
+                "temperature": 23.87,
+                "humidity": 62.1
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "002",
+        "result": {
+            "temperature_anomalies": [],
+            "humidity_anomalies": []
+        },
+        "execution_seconds": 1.01
+    },
+    "sensor_3_stats": {
+        "process": "temperature_stats",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:58.300470+00:00",
+                "temperature": 45.0,
+                "humidity": 57.26
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:58.300514+00:00",
+                "temperature": 27.0,
+                "humidity": 98.0
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:58.300523+00:00",
+                "temperature": 21.36,
+                "humidity": 51.79
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:58.300529+00:00",
+                "temperature": 22.64,
+                "humidity": 53.61
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:58.300535+00:00",
+                "temperature": 23.44,
+                "humidity": 54.81
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:58.300540+00:00",
+                "temperature": 23.89,
+                "humidity": 56.62
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:58.300545+00:00",
+                "temperature": 21.45,
+                "humidity": 61.24
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:58.300551+00:00",
+                "temperature": 23.82,
+                "humidity": 48.38
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:58.300556+00:00",
+                "temperature": 27.04,
+                "humidity": 50.51
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:58.300561+00:00",
+                "temperature": 21.96,
+                "humidity": 47.62
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:58.300567+00:00",
+                "temperature": 21.25,
+                "humidity": 53.69
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:58.300572+00:00",
+                "temperature": 22.26,
+                "humidity": 55.48
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:58.300577+00:00",
+                "temperature": 26.97,
+                "humidity": 58.06
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:58.300582+00:00",
+                "temperature": 22.93,
+                "humidity": 56.36
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:58.300588+00:00",
+                "temperature": 21.27,
+                "humidity": 56.58
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:58.300608+00:00",
+                "temperature": 23.24,
+                "humidity": 54.41
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:58.300614+00:00",
+                "temperature": 23.67,
+                "humidity": 61.71
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:58.300620+00:00",
+                "temperature": 26.0,
+                "humidity": 60.74
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:58.300626+00:00",
+                "temperature": 22.33,
+                "humidity": 56.86
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:58.300631+00:00",
+                "temperature": 24.06,
+                "humidity": 49.73
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "001",
+        "result": {
+            "count": 20,
+            "minimum": 21.25,
+            "maximum": 45.0,
+            "average": 24.58
+        },
+        "execution_seconds": 1.009
+    },
+    "sensor_3_anomalies": {
+        "process": "detect_anomalies",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:58.300470+00:00",
+                "temperature": 45.0,
+                "humidity": 57.26
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:58.300514+00:00",
+                "temperature": 27.0,
+                "humidity": 98.0
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:58.300523+00:00",
+                "temperature": 21.36,
+                "humidity": 51.79
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:58.300529+00:00",
+                "temperature": 22.64,
+                "humidity": 53.61
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:58.300535+00:00",
+                "temperature": 23.44,
+                "humidity": 54.81
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:58.300540+00:00",
+                "temperature": 23.89,
+                "humidity": 56.62
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:58.300545+00:00",
+                "temperature": 21.45,
+                "humidity": 61.24
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:58.300551+00:00",
+                "temperature": 23.82,
+                "humidity": 48.38
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:58.300556+00:00",
+                "temperature": 27.04,
+                "humidity": 50.51
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:58.300561+00:00",
+                "temperature": 21.96,
+                "humidity": 47.62
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:58.300567+00:00",
+                "temperature": 21.25,
+                "humidity": 53.69
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:58.300572+00:00",
+                "temperature": 22.26,
+                "humidity": 55.48
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:58.300577+00:00",
+                "temperature": 26.97,
+                "humidity": 58.06
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:58.300582+00:00",
+                "temperature": 22.93,
+                "humidity": 56.36
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:58.300588+00:00",
+                "temperature": 21.27,
+                "humidity": 56.58
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:58.300608+00:00",
+                "temperature": 23.24,
+                "humidity": 54.41
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:58.300614+00:00",
+                "temperature": 23.67,
+                "humidity": 61.71
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:58.300620+00:00",
+                "temperature": 26.0,
+                "humidity": 60.74
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:58.300626+00:00",
+                "temperature": 22.33,
+                "humidity": 56.86
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:58.300631+00:00",
+                "temperature": 24.06,
+                "humidity": 49.73
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "002",
+        "result": {
+            "temperature_anomalies": [
+                {
+                    "sensor_id": "sensor_1",
+                    "timestamp": "2026-11-05T09:02:58.300470+00:00",
+                    "temperature": 45.0,
+                    "humidity": 57.26
+                }
+            ],
+            "humidity_anomalies": [
+                {
+                    "sensor_id": "sensor_2",
+                    "timestamp": "2026-11-05T09:02:58.300514+00:00",
+                    "temperature": 27.0,
+                    "humidity": 98.0
+                }
+            ]
+        },
+        "execution_seconds": 1.01
+    },
+    "sensor_4_stats": {
+        "process": "temperature_stats",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:59.301281+00:00",
+                "temperature": 26.1,
+                "humidity": 58.03
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:59.301321+00:00",
+                "temperature": 26.45,
+                "humidity": 46.99
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:59.301328+00:00",
+                "temperature": 23.8,
+                "humidity": 44.82
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:59.301333+00:00",
+                "temperature": 25.22,
+                "humidity": 48.47
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:59.301338+00:00",
+                "temperature": 26.57,
+                "humidity": 53.24
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:59.301343+00:00",
+                "temperature": 25.63,
+                "humidity": 48.67
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:59.301347+00:00",
+                "temperature": 23.66,
+                "humidity": 57.62
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:59.301351+00:00",
+                "temperature": 25.09,
+                "humidity": 50.26
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:59.301356+00:00",
+                "temperature": 21.18,
+                "humidity": 55.85
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:59.301360+00:00",
+                "temperature": 24.31,
+                "humidity": 61.9
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:59.301365+00:00",
+                "temperature": 21.22,
+                "humidity": 63.02
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:59.301369+00:00",
+                "temperature": 21.41,
+                "humidity": 60.72
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:59.301374+00:00",
+                "temperature": 25.54,
+                "humidity": 51.25
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:59.301378+00:00",
+                "temperature": 25.71,
+                "humidity": 51.04
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:59.301382+00:00",
+                "temperature": 22.52,
+                "humidity": 48.09
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:59.301387+00:00",
+                "temperature": 22.74,
+                "humidity": 67.28
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:59.301391+00:00",
+                "temperature": 26.92,
+                "humidity": 57.66
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:59.301408+00:00",
+                "temperature": 22.49,
+                "humidity": 58.89
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:59.301418+00:00",
+                "temperature": 22.47,
+                "humidity": 58.6
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:59.301425+00:00",
+                "temperature": 24.2,
+                "humidity": 50.04
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "001",
+        "result": {
+            "count": 20,
+            "minimum": 21.18,
+            "maximum": 26.92,
+            "average": 24.16
+        },
+        "execution_seconds": 1.01
+    },
+    "sensor_4_anomalies": {
+        "process": "detect_anomalies",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:59.301281+00:00",
+                "temperature": 26.1,
+                "humidity": 58.03
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:59.301321+00:00",
+                "temperature": 26.45,
+                "humidity": 46.99
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:59.301328+00:00",
+                "temperature": 23.8,
+                "humidity": 44.82
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:59.301333+00:00",
+                "temperature": 25.22,
+                "humidity": 48.47
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:59.301338+00:00",
+                "temperature": 26.57,
+                "humidity": 53.24
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:59.301343+00:00",
+                "temperature": 25.63,
+                "humidity": 48.67
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:59.301347+00:00",
+                "temperature": 23.66,
+                "humidity": 57.62
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:59.301351+00:00",
+                "temperature": 25.09,
+                "humidity": 50.26
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:59.301356+00:00",
+                "temperature": 21.18,
+                "humidity": 55.85
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:59.301360+00:00",
+                "temperature": 24.31,
+                "humidity": 61.9
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:59.301365+00:00",
+                "temperature": 21.22,
+                "humidity": 63.02
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:59.301369+00:00",
+                "temperature": 21.41,
+                "humidity": 60.72
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:59.301374+00:00",
+                "temperature": 25.54,
+                "humidity": 51.25
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:59.301378+00:00",
+                "temperature": 25.71,
+                "humidity": 51.04
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:59.301382+00:00",
+                "temperature": 22.52,
+                "humidity": 48.09
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:02:59.301387+00:00",
+                "temperature": 22.74,
+                "humidity": 67.28
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:02:59.301391+00:00",
+                "temperature": 26.92,
+                "humidity": 57.66
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:02:59.301408+00:00",
+                "temperature": 22.49,
+                "humidity": 58.89
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:02:59.301418+00:00",
+                "temperature": 22.47,
+                "humidity": 58.6
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:02:59.301425+00:00",
+                "temperature": 24.2,
+                "humidity": 50.04
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "002",
+        "result": {
+            "temperature_anomalies": [],
+            "humidity_anomalies": []
+        },
+        "execution_seconds": 1.014
+    },
+    "sensor_5_stats": {
+        "process": "temperature_stats",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:00.302644+00:00",
+                "temperature": 27.71,
+                "humidity": 60.11
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:00.302725+00:00",
+                "temperature": 23.64,
+                "humidity": 59.0
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:00.302740+00:00",
+                "temperature": 26.57,
+                "humidity": 59.88
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:00.302751+00:00",
+                "temperature": 25.11,
+                "humidity": 57.67
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:00.302760+00:00",
+                "temperature": 20.21,
+                "humidity": 54.77
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:00.302770+00:00",
+                "temperature": 25.77,
+                "humidity": 59.76
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:00.302779+00:00",
+                "temperature": 23.11,
+                "humidity": 63.96
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:00.302788+00:00",
+                "temperature": 21.13,
+                "humidity": 49.97
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:00.302796+00:00",
+                "temperature": 21.84,
+                "humidity": 51.03
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:00.302806+00:00",
+                "temperature": 27.25,
+                "humidity": 48.88
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:00.302815+00:00",
+                "temperature": 22.59,
+                "humidity": 52.44
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:00.302823+00:00",
+                "temperature": 24.5,
+                "humidity": 58.4
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:00.302833+00:00",
+                "temperature": 23.98,
+                "humidity": 59.23
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:00.302842+00:00",
+                "temperature": 25.2,
+                "humidity": 47.35
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:00.302851+00:00",
+                "temperature": 22.37,
+                "humidity": 61.79
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:00.302861+00:00",
+                "temperature": 21.56,
+                "humidity": 50.38
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:00.302870+00:00",
+                "temperature": 24.79,
+                "humidity": 62.06
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:00.302881+00:00",
+                "temperature": 22.69,
+                "humidity": 55.94
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:00.302890+00:00",
+                "temperature": 24.76,
+                "humidity": 53.0
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:00.302899+00:00",
+                "temperature": 24.02,
+                "humidity": 52.41
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "001",
+        "result": {
+            "count": 20,
+            "minimum": 20.21,
+            "maximum": 27.71,
+            "average": 23.94
+        },
+        "execution_seconds": 1.024
+    },
+    "sensor_5_anomalies": {
+        "process": "detect_anomalies",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:00.302644+00:00",
+                "temperature": 27.71,
+                "humidity": 60.11
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:00.302725+00:00",
+                "temperature": 23.64,
+                "humidity": 59.0
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:00.302740+00:00",
+                "temperature": 26.57,
+                "humidity": 59.88
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:00.302751+00:00",
+                "temperature": 25.11,
+                "humidity": 57.67
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:00.302760+00:00",
+                "temperature": 20.21,
+                "humidity": 54.77
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:00.302770+00:00",
+                "temperature": 25.77,
+                "humidity": 59.76
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:00.302779+00:00",
+                "temperature": 23.11,
+                "humidity": 63.96
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:00.302788+00:00",
+                "temperature": 21.13,
+                "humidity": 49.97
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:00.302796+00:00",
+                "temperature": 21.84,
+                "humidity": 51.03
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:00.302806+00:00",
+                "temperature": 27.25,
+                "humidity": 48.88
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:00.302815+00:00",
+                "temperature": 22.59,
+                "humidity": 52.44
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:00.302823+00:00",
+                "temperature": 24.5,
+                "humidity": 58.4
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:00.302833+00:00",
+                "temperature": 23.98,
+                "humidity": 59.23
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:00.302842+00:00",
+                "temperature": 25.2,
+                "humidity": 47.35
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:00.302851+00:00",
+                "temperature": 22.37,
+                "humidity": 61.79
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:00.302861+00:00",
+                "temperature": 21.56,
+                "humidity": 50.38
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:00.302870+00:00",
+                "temperature": 24.79,
+                "humidity": 62.06
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:00.302881+00:00",
+                "temperature": 22.69,
+                "humidity": 55.94
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:00.302890+00:00",
+                "temperature": 24.76,
+                "humidity": 53.0
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:00.302899+00:00",
+                "temperature": 24.02,
+                "humidity": 52.41
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "002",
+        "result": {
+            "temperature_anomalies": [],
+            "humidity_anomalies": []
+        },
+        "execution_seconds": 1.006
+    },
+    "sensor_6_stats": {
+        "process": "temperature_stats",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:01.304089+00:00",
+                "temperature": 45.0,
+                "humidity": 62.14
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:01.304156+00:00",
+                "temperature": 25.53,
+                "humidity": 98.0
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:01.304306+00:00",
+                "temperature": 24.02,
+                "humidity": 51.64
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:01.304317+00:00",
+                "temperature": 20.73,
+                "humidity": 57.49
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:01.304325+00:00",
+                "temperature": 23.66,
+                "humidity": 57.99
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:01.304334+00:00",
+                "temperature": 21.75,
+                "humidity": 47.44
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:01.304342+00:00",
+                "temperature": 23.74,
+                "humidity": 51.77
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:01.304349+00:00",
+                "temperature": 24.62,
+                "humidity": 52.07
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:01.304357+00:00",
+                "temperature": 25.22,
+                "humidity": 53.9
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:01.304364+00:00",
+                "temperature": 24.72,
+                "humidity": 63.3
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:01.304372+00:00",
+                "temperature": 23.58,
+                "humidity": 51.51
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:01.304379+00:00",
+                "temperature": 25.11,
+                "humidity": 49.2
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:01.304386+00:00",
+                "temperature": 25.19,
+                "humidity": 54.63
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:01.304393+00:00",
+                "temperature": 23.98,
+                "humidity": 51.11
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:01.304400+00:00",
+                "temperature": 22.72,
+                "humidity": 58.39
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:01.304407+00:00",
+                "temperature": 23.76,
+                "humidity": 59.93
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:01.304415+00:00",
+                "temperature": 22.3,
+                "humidity": 56.2
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:01.304423+00:00",
+                "temperature": 23.96,
+                "humidity": 61.27
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:01.304452+00:00",
+                "temperature": 25.5,
+                "humidity": 56.19
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:01.304459+00:00",
+                "temperature": 22.25,
+                "humidity": 53.07
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "002",
+        "result": {
+            "count": 20,
+            "minimum": 20.73,
+            "maximum": 45.0,
+            "average": 24.87
+        },
+        "execution_seconds": 1.014
+    },
+    "sensor_6_anomalies": {
+        "process": "detect_anomalies",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:01.304089+00:00",
+                "temperature": 45.0,
+                "humidity": 62.14
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:01.304156+00:00",
+                "temperature": 25.53,
+                "humidity": 98.0
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:01.304306+00:00",
+                "temperature": 24.02,
+                "humidity": 51.64
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:01.304317+00:00",
+                "temperature": 20.73,
+                "humidity": 57.49
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:01.304325+00:00",
+                "temperature": 23.66,
+                "humidity": 57.99
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:01.304334+00:00",
+                "temperature": 21.75,
+                "humidity": 47.44
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:01.304342+00:00",
+                "temperature": 23.74,
+                "humidity": 51.77
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:01.304349+00:00",
+                "temperature": 24.62,
+                "humidity": 52.07
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:01.304357+00:00",
+                "temperature": 25.22,
+                "humidity": 53.9
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:01.304364+00:00",
+                "temperature": 24.72,
+                "humidity": 63.3
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:01.304372+00:00",
+                "temperature": 23.58,
+                "humidity": 51.51
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:01.304379+00:00",
+                "temperature": 25.11,
+                "humidity": 49.2
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:01.304386+00:00",
+                "temperature": 25.19,
+                "humidity": 54.63
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:01.304393+00:00",
+                "temperature": 23.98,
+                "humidity": 51.11
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:01.304400+00:00",
+                "temperature": 22.72,
+                "humidity": 58.39
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:01.304407+00:00",
+                "temperature": 23.76,
+                "humidity": 59.93
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:01.304415+00:00",
+                "temperature": 22.3,
+                "humidity": 56.2
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:01.304423+00:00",
+                "temperature": 23.96,
+                "humidity": 61.27
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:01.304452+00:00",
+                "temperature": 25.5,
+                "humidity": 56.19
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:01.304459+00:00",
+                "temperature": 22.25,
+                "humidity": 53.07
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "001",
+        "result": {
+            "temperature_anomalies": [
+                {
+                    "sensor_id": "sensor_1",
+                    "timestamp": "2026-11-05T09:03:01.304089+00:00",
+                    "temperature": 45.0,
+                    "humidity": 62.14
+                }
+            ],
+            "humidity_anomalies": [
+                {
+                    "sensor_id": "sensor_2",
+                    "timestamp": "2026-11-05T09:03:01.304156+00:00",
+                    "temperature": 25.53,
+                    "humidity": 98.0
+                }
+            ]
+        },
+        "execution_seconds": 1.016
+    },
+    "sensor_7_stats": {
+        "process": "temperature_stats",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:02.305704+00:00",
+                "temperature": 25.75,
+                "humidity": 56.46
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:02.305807+00:00",
+                "temperature": 28.14,
+                "humidity": 57.89
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:02.305823+00:00",
+                "temperature": 21.38,
+                "humidity": 64.86
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:02.305833+00:00",
+                "temperature": 29.09,
+                "humidity": 54.23
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:02.305843+00:00",
+                "temperature": 24.27,
+                "humidity": 51.65
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:02.305851+00:00",
+                "temperature": 24.82,
+                "humidity": 49.23
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:02.305859+00:00",
+                "temperature": 27.43,
+                "humidity": 44.79
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:02.305866+00:00",
+                "temperature": 20.32,
+                "humidity": 56.2
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:02.305875+00:00",
+                "temperature": 27.23,
+                "humidity": 50.31
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:02.305883+00:00",
+                "temperature": 27.4,
+                "humidity": 49.79
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:02.305891+00:00",
+                "temperature": 23.01,
+                "humidity": 59.58
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:02.305900+00:00",
+                "temperature": 24.99,
+                "humidity": 56.98
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:02.305907+00:00",
+                "temperature": 26.57,
+                "humidity": 52.74
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:02.305915+00:00",
+                "temperature": 24.8,
+                "humidity": 51.39
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:02.305922+00:00",
+                "temperature": 24.99,
+                "humidity": 48.63
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:02.305929+00:00",
+                "temperature": 24.58,
+                "humidity": 61.06
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:02.305937+00:00",
+                "temperature": 25.45,
+                "humidity": 59.81
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:02.305945+00:00",
+                "temperature": 23.87,
+                "humidity": 62.5
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:02.305953+00:00",
+                "temperature": 23.53,
+                "humidity": 57.5
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:02.305961+00:00",
+                "temperature": 28.46,
+                "humidity": 54.61
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "002",
+        "result": {
+            "count": 20,
+            "minimum": 20.32,
+            "maximum": 29.09,
+            "average": 25.3
+        },
+        "execution_seconds": 1.032
+    },
+    "sensor_7_anomalies": {
+        "process": "detect_anomalies",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:02.305704+00:00",
+                "temperature": 25.75,
+                "humidity": 56.46
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:02.305807+00:00",
+                "temperature": 28.14,
+                "humidity": 57.89
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:02.305823+00:00",
+                "temperature": 21.38,
+                "humidity": 64.86
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:02.305833+00:00",
+                "temperature": 29.09,
+                "humidity": 54.23
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:02.305843+00:00",
+                "temperature": 24.27,
+                "humidity": 51.65
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:02.305851+00:00",
+                "temperature": 24.82,
+                "humidity": 49.23
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:02.305859+00:00",
+                "temperature": 27.43,
+                "humidity": 44.79
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:02.305866+00:00",
+                "temperature": 20.32,
+                "humidity": 56.2
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:02.305875+00:00",
+                "temperature": 27.23,
+                "humidity": 50.31
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:02.305883+00:00",
+                "temperature": 27.4,
+                "humidity": 49.79
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:02.305891+00:00",
+                "temperature": 23.01,
+                "humidity": 59.58
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:02.305900+00:00",
+                "temperature": 24.99,
+                "humidity": 56.98
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:02.305907+00:00",
+                "temperature": 26.57,
+                "humidity": 52.74
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:02.305915+00:00",
+                "temperature": 24.8,
+                "humidity": 51.39
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:02.305922+00:00",
+                "temperature": 24.99,
+                "humidity": 48.63
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:02.305929+00:00",
+                "temperature": 24.58,
+                "humidity": 61.06
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:02.305937+00:00",
+                "temperature": 25.45,
+                "humidity": 59.81
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:02.305945+00:00",
+                "temperature": 23.87,
+                "humidity": 62.5
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:02.305953+00:00",
+                "temperature": 23.53,
+                "humidity": 57.5
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:02.305961+00:00",
+                "temperature": 28.46,
+                "humidity": 54.61
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "001",
+        "result": {
+            "temperature_anomalies": [],
+            "humidity_anomalies": []
+        },
+        "execution_seconds": 1.007
+    },
+    "sensor_8_stats": {
+        "process": "temperature_stats",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:03.307165+00:00",
+                "temperature": 22.43,
+                "humidity": 45.99
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:03.307243+00:00",
+                "temperature": 23.96,
+                "humidity": 61.82
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:03.307257+00:00",
+                "temperature": 27.07,
+                "humidity": 59.49
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:03.307267+00:00",
+                "temperature": 24.7,
+                "humidity": 53.36
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:03.307278+00:00",
+                "temperature": 23.57,
+                "humidity": 54.81
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:03.307288+00:00",
+                "temperature": 22.32,
+                "humidity": 61.57
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:03.307297+00:00",
+                "temperature": 23.94,
+                "humidity": 56.48
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:03.307306+00:00",
+                "temperature": 23.11,
+                "humidity": 57.11
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:03.307315+00:00",
+                "temperature": 24.76,
+                "humidity": 54.68
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:03.307324+00:00",
+                "temperature": 24.85,
+                "humidity": 51.93
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:03.307334+00:00",
+                "temperature": 25.97,
+                "humidity": 59.69
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:03.307343+00:00",
+                "temperature": 23.54,
+                "humidity": 53.15
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:03.307352+00:00",
+                "temperature": 24.99,
+                "humidity": 47.16
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:03.307361+00:00",
+                "temperature": 22.35,
+                "humidity": 60.37
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:03.307370+00:00",
+                "temperature": 25.5,
+                "humidity": 53.41
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:03.307379+00:00",
+                "temperature": 24.77,
+                "humidity": 51.27
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:03.307388+00:00",
+                "temperature": 26.47,
+                "humidity": 48.63
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:03.307402+00:00",
+                "temperature": 24.12,
+                "humidity": 60.49
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:03.307412+00:00",
+                "temperature": 23.1,
+                "humidity": 65.37
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:03.307421+00:00",
+                "temperature": 26.38,
+                "humidity": 58.42
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "001",
+        "result": {
+            "count": 20,
+            "minimum": 22.32,
+            "maximum": 27.07,
+            "average": 24.39
+        },
+        "execution_seconds": 1.021
+    },
+    "sensor_8_anomalies": {
+        "process": "detect_anomalies",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:03.307165+00:00",
+                "temperature": 22.43,
+                "humidity": 45.99
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:03.307243+00:00",
+                "temperature": 23.96,
+                "humidity": 61.82
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:03.307257+00:00",
+                "temperature": 27.07,
+                "humidity": 59.49
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:03.307267+00:00",
+                "temperature": 24.7,
+                "humidity": 53.36
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:03.307278+00:00",
+                "temperature": 23.57,
+                "humidity": 54.81
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:03.307288+00:00",
+                "temperature": 22.32,
+                "humidity": 61.57
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:03.307297+00:00",
+                "temperature": 23.94,
+                "humidity": 56.48
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:03.307306+00:00",
+                "temperature": 23.11,
+                "humidity": 57.11
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:03.307315+00:00",
+                "temperature": 24.76,
+                "humidity": 54.68
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:03.307324+00:00",
+                "temperature": 24.85,
+                "humidity": 51.93
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:03.307334+00:00",
+                "temperature": 25.97,
+                "humidity": 59.69
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:03.307343+00:00",
+                "temperature": 23.54,
+                "humidity": 53.15
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:03.307352+00:00",
+                "temperature": 24.99,
+                "humidity": 47.16
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:03.307361+00:00",
+                "temperature": 22.35,
+                "humidity": 60.37
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:03.307370+00:00",
+                "temperature": 25.5,
+                "humidity": 53.41
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:03.307379+00:00",
+                "temperature": 24.77,
+                "humidity": 51.27
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:03.307388+00:00",
+                "temperature": 26.47,
+                "humidity": 48.63
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:03.307402+00:00",
+                "temperature": 24.12,
+                "humidity": 60.49
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:03.307412+00:00",
+                "temperature": 23.1,
+                "humidity": 65.37
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:03.307421+00:00",
+                "temperature": 26.38,
+                "humidity": 58.42
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "002",
+        "result": {
+            "temperature_anomalies": [],
+            "humidity_anomalies": []
+        },
+        "execution_seconds": 1.014
+    },
+    "sensor_9_stats": {
+        "process": "temperature_stats",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:04.308320+00:00",
+                "temperature": 45.0,
+                "humidity": 50.4
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:04.308344+00:00",
+                "temperature": 23.1,
+                "humidity": 98.0
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:04.308347+00:00",
+                "temperature": 24.71,
+                "humidity": 54.93
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:04.308350+00:00",
+                "temperature": 24.46,
+                "humidity": 59.68
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:04.308352+00:00",
+                "temperature": 25.17,
+                "humidity": 56.65
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:04.308355+00:00",
+                "temperature": 24.51,
+                "humidity": 61.26
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:04.308357+00:00",
+                "temperature": 24.16,
+                "humidity": 44.84
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:04.308360+00:00",
+                "temperature": 26.56,
+                "humidity": 54.09
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:04.308362+00:00",
+                "temperature": 19.33,
+                "humidity": 55.86
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:04.308364+00:00",
+                "temperature": 24.12,
+                "humidity": 56.09
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:04.308366+00:00",
+                "temperature": 23.13,
+                "humidity": 60.47
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:04.308368+00:00",
+                "temperature": 27.33,
+                "humidity": 55.26
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:04.308370+00:00",
+                "temperature": 23.3,
+                "humidity": 55.72
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:04.308372+00:00",
+                "temperature": 22.13,
+                "humidity": 52.75
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:04.308374+00:00",
+                "temperature": 21.13,
+                "humidity": 50.7
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:04.308377+00:00",
+                "temperature": 23.7,
+                "humidity": 46.28
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:04.308379+00:00",
+                "temperature": 24.59,
+                "humidity": 48.17
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:04.308381+00:00",
+                "temperature": 24.53,
+                "humidity": 53.55
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:04.308384+00:00",
+                "temperature": 20.05,
+                "humidity": 54.44
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:04.308386+00:00",
+                "temperature": 21.36,
+                "humidity": 50.28
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "001",
+        "result": {
+            "count": 20,
+            "minimum": 19.33,
+            "maximum": 45.0,
+            "average": 24.62
+        },
+        "execution_seconds": 1.012
+    },
+    "sensor_9_anomalies": {
+        "process": "detect_anomalies",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:04.308320+00:00",
+                "temperature": 45.0,
+                "humidity": 50.4
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:04.308344+00:00",
+                "temperature": 23.1,
+                "humidity": 98.0
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:04.308347+00:00",
+                "temperature": 24.71,
+                "humidity": 54.93
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:04.308350+00:00",
+                "temperature": 24.46,
+                "humidity": 59.68
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:04.308352+00:00",
+                "temperature": 25.17,
+                "humidity": 56.65
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:04.308355+00:00",
+                "temperature": 24.51,
+                "humidity": 61.26
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:04.308357+00:00",
+                "temperature": 24.16,
+                "humidity": 44.84
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:04.308360+00:00",
+                "temperature": 26.56,
+                "humidity": 54.09
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:04.308362+00:00",
+                "temperature": 19.33,
+                "humidity": 55.86
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:04.308364+00:00",
+                "temperature": 24.12,
+                "humidity": 56.09
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:04.308366+00:00",
+                "temperature": 23.13,
+                "humidity": 60.47
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:04.308368+00:00",
+                "temperature": 27.33,
+                "humidity": 55.26
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:04.308370+00:00",
+                "temperature": 23.3,
+                "humidity": 55.72
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:04.308372+00:00",
+                "temperature": 22.13,
+                "humidity": 52.75
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:04.308374+00:00",
+                "temperature": 21.13,
+                "humidity": 50.7
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:04.308377+00:00",
+                "temperature": 23.7,
+                "humidity": 46.28
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:04.308379+00:00",
+                "temperature": 24.59,
+                "humidity": 48.17
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:04.308381+00:00",
+                "temperature": 24.53,
+                "humidity": 53.55
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:04.308384+00:00",
+                "temperature": 20.05,
+                "humidity": 54.44
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:04.308386+00:00",
+                "temperature": 21.36,
+                "humidity": 50.28
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "002",
+        "result": {
+            "temperature_anomalies": [
+                {
+                    "sensor_id": "sensor_1",
+                    "timestamp": "2026-11-05T09:03:04.308320+00:00",
+                    "temperature": 45.0,
+                    "humidity": 50.4
+                }
+            ],
+            "humidity_anomalies": [
+                {
+                    "sensor_id": "sensor_2",
+                    "timestamp": "2026-11-05T09:03:04.308344+00:00",
+                    "temperature": 23.1,
+                    "humidity": 98.0
+                }
+            ]
+        },
+        "execution_seconds": 1.009
+    },
+    "sensor_10_stats": {
+        "process": "temperature_stats",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:05.308958+00:00",
+                "temperature": 26.86,
+                "humidity": 50.11
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:05.308985+00:00",
+                "temperature": 21.43,
+                "humidity": 44.52
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:05.308988+00:00",
+                "temperature": 24.08,
+                "humidity": 60.2
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:05.308991+00:00",
+                "temperature": 20.58,
+                "humidity": 49.6
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:05.308994+00:00",
+                "temperature": 24.8,
+                "humidity": 54.84
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:05.308996+00:00",
+                "temperature": 23.82,
+                "humidity": 59.08
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:05.308998+00:00",
+                "temperature": 24.44,
+                "humidity": 63.62
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:05.309001+00:00",
+                "temperature": 23.53,
+                "humidity": 58.6
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:05.309003+00:00",
+                "temperature": 22.72,
+                "humidity": 58.71
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:05.309005+00:00",
+                "temperature": 25.38,
+                "humidity": 49.92
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:05.309007+00:00",
+                "temperature": 23.26,
+                "humidity": 55.23
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:05.309020+00:00",
+                "temperature": 25.1,
+                "humidity": 53.82
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:05.309022+00:00",
+                "temperature": 22.16,
+                "humidity": 43.98
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:05.309024+00:00",
+                "temperature": 26.64,
+                "humidity": 49.51
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:05.309026+00:00",
+                "temperature": 24.18,
+                "humidity": 53.1
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:05.309028+00:00",
+                "temperature": 26.99,
+                "humidity": 47.91
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:05.309031+00:00",
+                "temperature": 20.86,
+                "humidity": 56.03
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:05.309033+00:00",
+                "temperature": 21.33,
+                "humidity": 54.16
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:05.309035+00:00",
+                "temperature": 26.46,
+                "humidity": 45.91
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:05.309038+00:00",
+                "temperature": 26.52,
+                "humidity": 59.5
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "001",
+        "result": {
+            "count": 20,
+            "minimum": 20.58,
+            "maximum": 26.99,
+            "average": 24.06
+        },
+        "execution_seconds": 1.004
+    },
+    "sensor_10_anomalies": {
+        "process": "detect_anomalies",
+        "message": [
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:05.308958+00:00",
+                "temperature": 26.86,
+                "humidity": 50.11
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:05.308985+00:00",
+                "temperature": 21.43,
+                "humidity": 44.52
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:05.308988+00:00",
+                "temperature": 24.08,
+                "humidity": 60.2
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:05.308991+00:00",
+                "temperature": 20.58,
+                "humidity": 49.6
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:05.308994+00:00",
+                "temperature": 24.8,
+                "humidity": 54.84
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:05.308996+00:00",
+                "temperature": 23.82,
+                "humidity": 59.08
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:05.308998+00:00",
+                "temperature": 24.44,
+                "humidity": 63.62
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:05.309001+00:00",
+                "temperature": 23.53,
+                "humidity": 58.6
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:05.309003+00:00",
+                "temperature": 22.72,
+                "humidity": 58.71
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:05.309005+00:00",
+                "temperature": 25.38,
+                "humidity": 49.92
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:05.309007+00:00",
+                "temperature": 23.26,
+                "humidity": 55.23
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:05.309020+00:00",
+                "temperature": 25.1,
+                "humidity": 53.82
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:05.309022+00:00",
+                "temperature": 22.16,
+                "humidity": 43.98
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:05.309024+00:00",
+                "temperature": 26.64,
+                "humidity": 49.51
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:05.309026+00:00",
+                "temperature": 24.18,
+                "humidity": 53.1
+            },
+            {
+                "sensor_id": "sensor_1",
+                "timestamp": "2026-11-05T09:03:05.309028+00:00",
+                "temperature": 26.99,
+                "humidity": 47.91
+            },
+            {
+                "sensor_id": "sensor_2",
+                "timestamp": "2026-11-05T09:03:05.309031+00:00",
+                "temperature": 20.86,
+                "humidity": 56.03
+            },
+            {
+                "sensor_id": "sensor_3",
+                "timestamp": "2026-11-05T09:03:05.309033+00:00",
+                "temperature": 21.33,
+                "humidity": 54.16
+            },
+            {
+                "sensor_id": "sensor_4",
+                "timestamp": "2026-11-05T09:03:05.309035+00:00",
+                "temperature": 26.46,
+                "humidity": 45.91
+            },
+            {
+                "sensor_id": "sensor_5",
+                "timestamp": "2026-11-05T09:03:05.309038+00:00",
+                "temperature": 26.52,
+                "humidity": 59.5
+            }
+        ],
+        "status": "COMPLETED",
+        "worker_id": "002",
+        "result": {
+            "temperature_anomalies": [],
+            "humidity_anomalies": []
+        },
+        "execution_seconds": 1.004
+    }
+}
